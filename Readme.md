@@ -4,4 +4,4 @@
 4. run virtualenv env 
 5. .\env\Scripts\activate
 6. run pip install -r lib.txt
-7. python main.py
+7. python main.py (local)
