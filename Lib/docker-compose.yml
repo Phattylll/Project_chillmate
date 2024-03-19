@@ -1,13 +1,12 @@
 version: '3.1'
 services:
   chillmate-model:
-    container_name: chillmeta-model
-    image: chillmeta-model
+    container_name: chillmate-model
+    image: chillmate-model
     build: 
       context: .
       dockerfile: Dockerfile
     volumes:
-      # - /home/chillmate/Desktop/mount_chillmate/model:/app/project/api/img/model
       - /home/chillmate/Desktop/mount_chillmate:/usr/src/app/asset/img
     ports:
       - "7501:5000"
